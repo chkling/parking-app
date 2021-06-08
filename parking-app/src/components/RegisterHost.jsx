@@ -1,4 +1,5 @@
 import React from "react";
+import { SignUpButton } from "../styledComponents/SignUpFormStyles";
 
 export default function RegisterHost() {
 	return (
@@ -15,7 +16,7 @@ export default function RegisterHost() {
 				<input type="text" placeholder="State" />
 				<input type="text" placeholder="Zip Code" />
 				<input type="number" placeholder="Number of Parking Spots" />
-				<button>Submit</button>
+				<SignUpButton>Submit</SignUpButton>
 			</form>
 		</div>
 	);
