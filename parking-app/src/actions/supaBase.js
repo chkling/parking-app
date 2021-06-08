@@ -1,7 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 
-const SUPABASE_KEY =
-	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyMzE3NzEyMCwiZXhwIjoxOTM4NzUzMTIwfQ.E30Wmx4NswOQwjrYMdyU_PPFoR15YWO_ol3A5fcKfgQ";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyMzE3NzEyMCwiZXhwIjoxOTM4NzUzMTIwfQ.E30Wmx4NswOQwjrYMdyU_PPFoR15YWO_ol3A5fcKfgQ"
 
 const supabaseUrl = "https://rxvletamokhgpmjpdosu.supabase.co";
 const supabaseKey = process.env.SUPABASE_KEY;
