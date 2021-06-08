@@ -13,3 +13,19 @@ a {
 	text-decoration: none;
 	color: lightblue;
 }
+
+.host-register {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	outline: none;
+	width: 200px;
+}
+
+button {
+	cursor: pointer;
+}

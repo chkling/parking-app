@@ -3,7 +3,9 @@ import React from "react";
 export default function Footer() {
 	return (
 		<div>
-			<h1>Footer</h1>
+			<footer className="footer">
+				<p>&copy; 2021 &middot; Calvin Kling</p>
+			</footer>
 		</div>
 	);
 }

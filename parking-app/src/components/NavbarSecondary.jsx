@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function NavbarSecondary() {
 	return (
 		<div>
-			<h3>Join X other active users!</h3>
+			<h3>Become a host and join X other active renters!</h3>
 			<nav>
 				<Link to="/LocateParking">Find Parking</Link>
 				<Link to="/RegisterHost">Rent Out Your Space</Link>

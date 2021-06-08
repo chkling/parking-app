@@ -8,7 +8,7 @@ export default function Navbar() {
 			<nav>
 				<Link to="/">Home</Link>
 				<Link to="/About">About Us</Link>
-				<Link to="/Host">Rent Your Space</Link>
+				<Link to="/RegisterHost">Rent Your Space</Link>
 			</nav>
 		</div>
 	);
