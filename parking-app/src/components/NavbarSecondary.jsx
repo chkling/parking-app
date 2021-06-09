@@ -3,17 +3,23 @@ import { Link } from "react-router-dom";
 import { useEffect} from "react";
 import { dataFromSupabase } from "../actions/supaBaseData";
 import { useDispatch, useSelector } from "react-redux"
+import { GET_DATA } from "../action-types/supaBase-action-types";
 
 
 export default function NavbarSecondary() {
 	const dispatch = useDispatch();
 	const supaBaseHostData = useSelector(state => state.supaBaseHostData)
 
-	console.log(supaBaseHostData)
-
-	// useEffect(() => {
-	// 	dataFromSupabase(dispatch);
-	// }, [dispatch])
+	useEffect(() =>  { 
+		const fetchData = async () => {
+			const data = await dataFromSupabase();
+			dispatch({
+			type: GET_DATA,
+			payload: data
+		})
+		}		
+		fetchData();
+	}, [])
 
 
 	return (
