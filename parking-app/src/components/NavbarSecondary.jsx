@@ -10,12 +10,11 @@ export default function NavbarSecondary() {
 	const supaBaseHostData = useSelector(state => state.supaBaseHostData)
 
 	console.log(supaBaseHostData)
-	useEffect(() => {
-		dataFromSupabase(dispatch);
-	}, [dispatch])
 
-	// const hostArray = dataFromSupabase();
-	// console.log(hostArray)
+	// useEffect(() => {
+	// 	dataFromSupabase(dispatch);
+	// }, [dispatch])
+
 
 	return (
 		<div>

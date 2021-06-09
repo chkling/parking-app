@@ -18,11 +18,12 @@ export const dataFromSupabase = async (
 	parkingSpots
 ) => {
 	const { data, error } = await supabase.from("Host").select();
-	console.log(data, error);
-	return dispatch({
-		type: GET_DATA,
-		payload: data
-	});
+	
+	// console.log(data, error);
+	// return dispatch({
+	// 	type: GET_DATA,
+	// 	payload: data,
+	// });
 };
 
 

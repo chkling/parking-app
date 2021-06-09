@@ -5,7 +5,8 @@ const initialState = [];
 const supaBaseHostData = (state=initialState, action) => {
     switch (action.type) {
         case GET_DATA:
-            return [...state, action.payload];
+            console.log(action.payload)
+            return state = (action.payload);
         default:
             return state;
     }
