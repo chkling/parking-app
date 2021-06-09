@@ -1,9 +1,10 @@
 import React from "react";
+import { LandingSection } from "../styledComponents/HomeStyles";
 import NavbarSecondary from "./NavbarSecondary";
 
 export default function Landing() {
 	return (
-		<div>
+		<LandingSection>
 			<p>
 				Rent parking in a host's driveway or rent out your driveway! Perfect for
 				those close to popular areas where parking is becoming increasingly
@@ -13,6 +14,6 @@ export default function Landing() {
 			<div>
 				<NavbarSecondary />
 			</div>
-		</div>
+		</LandingSection>
 	);
 }

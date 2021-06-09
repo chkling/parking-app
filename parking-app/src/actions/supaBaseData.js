@@ -17,7 +17,12 @@ export const dataFromSupabase = async (
 	parkingSpots
 ) => {
 	const { data, error } = await supabase.from("Host").select();
-	return data
+	if (data){
+		return data
+	}
+	else {
+		return error
+	}
 };
 
 

@@ -4,6 +4,7 @@ import { useEffect} from "react";
 import { dataFromSupabase } from "../actions/supaBaseData";
 import { useDispatch, useSelector } from "react-redux"
 import { GET_DATA } from "../action-types/supaBase-action-types";
+import {SecondaryNavbar} from "../styledComponents/NavbarStyles"
 
 
 export default function NavbarSecondary() {
@@ -19,16 +20,16 @@ export default function NavbarSecondary() {
 		})
 		}		
 		fetchData();
-	}, [])
+	}, [dispatch])
 
 
 	return (
 		<div>
 			<h3>Become a host and join {supaBaseHostData.length} other active hosts!</h3>
-			<nav>
+			<SecondaryNavbar>
 				<Link to="/LocateParking">Find Parking</Link>
 				<Link to="/RegisterHost">Rent Out Your Space</Link>
-			</nav>
+			</SecondaryNavbar>
 			<div>
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
 				atque, impedit hic quae doloremque velit beatae libero minus.
