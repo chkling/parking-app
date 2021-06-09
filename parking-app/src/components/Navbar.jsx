@@ -9,9 +9,9 @@ export default function Navbar() {
 				style={{
 					textTransform: "uppercase",
 					textDecoration: "none",
-					color: "#057DCD",
+					color: "#E8EEF1",
 					fontSize: "2.2rem",
-					backgroundColor: "#e8eef1",
+					backgroundColor: "#1E3D58",
 					alignItems: "center",
 					padding: "1.2rem",
 				}}
@@ -22,7 +22,7 @@ export default function Navbar() {
 			<NavbarLinks>
 				<Link to="/">Home</Link>
 				<Link to="/About">About Us</Link>
-				<Link to="/RegisterHost">Host Your Driveway</Link>
+				<Link to="/RegisterHost">Host</Link>
 			</NavbarLinks>
 		</MainNavbar>
 	);

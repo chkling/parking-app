@@ -27,9 +27,10 @@ export const NavbarLinks = styled.nav`
 `;
 
 export const SecondaryNavbar = styled.div`
-	color: blue;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-conter: center;
+	align-items: center;
 
 	a {
 		margin: 5px;
