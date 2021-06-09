@@ -1,30 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect} from "react";
-import { dataFromSupabase } from "../actions/supaBase";
+import { dataFromSupabase } from "../actions/supaBaseData";
+import { useDispatch, useSelector } from "react-redux"
+
 
 export default function NavbarSecondary() {
-useEffect(() => {
-	dataFromSupabase();
-}, [])
+	const dispatch = useDispatch();
+	const supaBaseHostData = useSelector(state => state.supaBaseHostData)
 
-const arrayLength = async () => {
-	const response = await fetch(dataFromSupabase,
-		{
-			headers: { Accept: "application/json" },
-		}
-		);
-		const json = await response.json();
-		console.log(json);
-		arrayLength(json)
-}
-useEffect(() => {
-	console.log(arrayLength());
-}, [])
+	console.log(supaBaseHostData)
+	useEffect(() => {
+		dataFromSupabase(dispatch);
+	}, [dispatch])
+
+	// const hostArray = dataFromSupabase();
+	// console.log(hostArray)
 
 	return (
 		<div>
-			<h3>Become a host and join X other active renters!</h3>
+			<h3>Become a host and join {supaBaseHostData.length} other active hosts!</h3>
 			<nav>
 				<Link to="/LocateParking">Find Parking</Link>
 				<Link to="/RegisterHost">Rent Out Your Space</Link>
