@@ -12,8 +12,6 @@ import {
 	Redirect,
 } from "react-router-dom";
 
-
-
 function App() {
 	return (
 		<div className="App">
@@ -29,7 +27,7 @@ function App() {
 					<Route path="/RegisterHost">
 						<RegisterHost />
 					</Route>
-          <Route path="/Error">
+					<Route path="/Error">
 						<Error />
 					</Route>
 					<Route path="*">

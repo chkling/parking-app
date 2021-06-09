@@ -11,6 +11,9 @@ export default function Navbar() {
 					textDecoration: "none",
 					color: "#057DCD",
 					fontSize: "2.2rem",
+					backgroundColor: "#e8eef1",
+					alignItems: "center",
+					padding: "1.2rem",
 				}}
 				to="/"
 			>

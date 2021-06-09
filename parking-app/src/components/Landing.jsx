@@ -1,6 +1,6 @@
 import React from "react";
 import { LandingSection } from "../styledComponents/HomeStyles";
-import NavbarSecondary from "./NavbarSecondary";
+import SecondaryLanding from "./SecondaryLanding";
 
 export default function Landing() {
 	return (
@@ -12,7 +12,7 @@ export default function Landing() {
 				more.
 			</p>
 			<div>
-				<NavbarSecondary />
+				<SecondaryLanding />
 			</div>
 		</LandingSection>
 	);

@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const LandingSection = styled.div`
-background-color: #f4f4f4;
-height: 80vh;
+	background-color: #f4f4f4;
+	height: 80vh;
 
-p {
-    font
-}
+	p {
+		margin: 1.2rem;
+		padding: 1.2rem;
+		font-size: 1.2rem;
+	}
 `;
