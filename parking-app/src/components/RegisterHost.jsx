@@ -3,12 +3,13 @@ import {
 	HostForm,
 	SignUpButton,
 	SignUpFormInput,
+	RegisterDiv,
 } from "../styledComponents/SignUpFormStyles";
 
 export default function RegisterHost() {
 	return (
-		<div>
-			<h1>Register</h1>
+		<RegisterDiv>
+			<h1>Register Now</h1>
 			<HostForm>
 				<SignUpFormInput type="text" placeholder="First Name" />
 				<SignUpFormInput type="text" placeholder="Last Name" />
@@ -22,6 +23,6 @@ export default function RegisterHost() {
 				<SignUpFormInput type="number" placeholder="Number of Parking Spots" />
 				<SignUpButton>Submit</SignUpButton>
 			</HostForm>
-		</div>
+		</RegisterDiv>
 	);
 }

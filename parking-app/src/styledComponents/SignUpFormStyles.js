@@ -1,4 +1,11 @@
 import styled from "styled-components";
+
+export const RegisterDiv = styled.div`
+	h1 {
+		margin: 2rem;
+	}
+`;
+
 export const HostForm = styled.form`
 	display: grid;
 	place-items: center;
@@ -9,9 +16,22 @@ export const HostForm = styled.form`
 		width: 200px;
 	}
 
-	h3 {
-		margin: 10px;
+	h1 {
+		margin: 2rem;
 	}
+
+	h3 {
+		margin: 2rem;
+	}
+`;
+
+export const SignUpFormInput = styled.input`
+	height: 2.2rem;
+	width: 9rem;
+	border-radius: 3px;
+	padding-left: 20px;
+	margin-bottom: 1rem;
+	outline: none;
 `;
 
 export const SignUpButton = styled.button`
@@ -24,13 +44,4 @@ export const SignUpButton = styled.button`
 	border-radius: 3px;
 	border: 0;
 	cursor: pointer;
-`;
-
-export const SignUpFormInput = styled.input`
-	height: 2.2rem;
-	width: 9rem;
-	border-radius: 16px;
-	padding-left: 20px;
-	margin-bottom: 1rem;
-	outline: none;
 `;
