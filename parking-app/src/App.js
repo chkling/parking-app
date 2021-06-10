@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
 import RegisterHost from "./components/RegisterHost";
-import About from "./components/About";
+import Features from "./components/Features";
 import Error from "./components/Error";
 import {
 	BrowserRouter as Router,
@@ -21,8 +21,8 @@ function App() {
 					<Route exact path="/">
 						<Landing />
 					</Route>
-					<Route path="/About">
-						<About />
+					<Route path="/Features">
+						<Features />
 					</Route>
 					<Route path="/RegisterHost">
 						<RegisterHost />

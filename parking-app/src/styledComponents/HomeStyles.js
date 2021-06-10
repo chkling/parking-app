@@ -25,10 +25,15 @@ export const SecondaryLandingSection = styled.div`
 `;
 
 export const MainButtonDiv = styled.div`
+	color: #1e3d58;
 	width: 9.2rem;
 	height: 10rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
+	cursor: pointer;
+	&:hover {
+		color: #057dcd;
+	}
 `;

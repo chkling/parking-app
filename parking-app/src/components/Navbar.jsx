@@ -17,11 +17,11 @@ export default function Navbar() {
 				}}
 				to="/"
 			>
-				Park Pal
+				Parking Pal
 			</Link>
 			<NavbarLinks>
 				<Link to="/">Home</Link>
-				<Link to="/About">About Us</Link>
+				<Link to="/Features">Features</Link>
 				<Link to="/RegisterHost">Host</Link>
 			</NavbarLinks>
 		</MainNavbar>
