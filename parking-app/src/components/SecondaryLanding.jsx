@@ -32,9 +32,6 @@ export default function SecondaryLanding() {
 
 	return (
 		<SecondaryLandingSection>
-			<h3>
-				Become a host and join {supaBaseHostData.length} other active hosts!
-			</h3>
 			<SecondaryNavbar>
 				<Link to="/LocateParking">
 					<MainButtonDiv>
@@ -49,6 +46,9 @@ export default function SecondaryLanding() {
 					</MainButtonDiv>
 				</Link>
 			</SecondaryNavbar>
+			<h3>
+				Become a host and join {supaBaseHostData.length} other active hosts!
+			</h3>
 
 			<p>
 				Perfect for those close to popular areas where parking is becoming

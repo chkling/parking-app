@@ -42,7 +42,7 @@ export const FeatureInfo = styled.div`
 
 export const FeatureIcon = styled.div`
 	display: flex;
-	background-color: #43b0f1;
+	// background-color: #43b0f1;
 	height: 70px;
 	width: 70px;
 	border: 1px black solid;
@@ -69,7 +69,7 @@ export const MainFeaturesReverse = styled.div`
 
 export const FeatureIconReverse = styled.div`
 	display: flex;
-	background-color: #43b0f1;
+	// background-color: #43b0f1;
 	height: 70px;
 	width: 70px;
 	border: 1px black solid;

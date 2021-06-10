@@ -10,6 +10,7 @@ export const NavbarLinks = styled.nav`
 	flex-direction: column;
 	margin: 0.3rem;
 	padding: 1rem;
+	border-bottom: 1px solid #1e3d58;
 
 	a {
 		text-decoration: none;
@@ -43,4 +44,11 @@ export const SecondaryNavbar = styled.div`
 			border: 1px solid #057dcd;
 		}
 	}
+`;
+
+export const FooterDiv = styled.div`
+	background-color: #1e3d58;
+	color: #e8eef1;
+	margin-top: 1rem;
+	padding: 1rem;
 `;

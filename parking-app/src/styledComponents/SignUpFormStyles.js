@@ -15,13 +15,13 @@ export const HostForm = styled.form`
 `;
 
 export const SignUpButton = styled.button`
-	background-color: #1fd1f9;
-	width: 200px;
+	background-color: #057dcd;
+	width: 160px;
 	height: 40px;
-	color: white;
+	color: #e8eef1;
 	font-family: sans-serif;
 	font-size: 1.1rem;
-	border-radius: 17px;
+	border-radius: 3px;
 	border: 0;
 	cursor: pointer;
 `;
