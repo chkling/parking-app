@@ -10,7 +10,7 @@ export default function Navbar() {
 					textTransform: "uppercase",
 					textDecoration: "none",
 					color: "#E8EEF1",
-					fontSize: "2.2rem",
+					fontSize: "2rem",
 					backgroundColor: "#1E3D58",
 					alignItems: "center",
 					padding: "1.2rem",

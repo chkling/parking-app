@@ -6,7 +6,7 @@ export const MainNavbar = styled.div`
 
 	@media (min-width: 768px) {
 		flex-direction: row;
-		height: 7.5rem;
+		height: 5rem;
 	}
 `;
 
@@ -25,11 +25,12 @@ export const NavbarLinks = styled.nav`
 		cursor: pointer;
 
 		&:hover {
-			color: #43b0f1;
+			color: #fd7f20;
 		}
 
 		@media (min-width: 768px) {
 			color: #e8eef1;
+			padding-left: 2.5rem;
 		}
 	}
 	@media (min-width: 768px) {
@@ -39,6 +40,7 @@ export const NavbarLinks = styled.nav`
 		width: 100%;
 		justify-content: flex-end;
 		align-items: center;
+		height: 5rem;
 	}
 `;
 
@@ -52,13 +54,12 @@ export const SecondaryNavbar = styled.div`
 		margin: 5px;
 		text-decoration: none;
 		color: #057dcd;
-		border: 1px solid #1e3d58;
-		border-radius: 10px;
+		border: 1px solid #43b0f1;
+		border-radius: 30px;
 		padding: 10px;
 
 		&:hover {
-			color: #43b0f1;
-			border: 1px solid #057dcd;
+			border: 1px solid #fd7f20;
 		}
 	}
 `;

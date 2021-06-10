@@ -23,6 +23,10 @@ export const MainFeatures = styled.div`
 	align-items: center;
 	height: 8rem;
 	text-align: right;
+
+	// @media (min-width: 768px) {
+	// 	width: 50%;
+	// }
 `;
 
 export const FeatureInfo = styled.div`
@@ -38,14 +42,18 @@ export const FeatureInfo = styled.div`
 	p {
 		font-size: 1.2rem;
 	}
+	@media (min-width: 768px) {
+		// width: 30%;
+	}
 `;
 
 export const FeatureIcon = styled.div`
 	display: flex;
 	// background-color: #43b0f1;
+	color: #fd7f20;
 	height: 70px;
 	width: 70px;
-	border: 1px black solid;
+	border: 1px #fd7f20 solid;
 	border-radius: 50%;
 	align-items: center;
 	justify-content: center;
@@ -70,9 +78,10 @@ export const MainFeaturesReverse = styled.div`
 export const FeatureIconReverse = styled.div`
 	display: flex;
 	// background-color: #43b0f1;
+	color: #fd7f20;
 	height: 70px;
 	width: 70px;
-	border: 1px black solid;
+	border: 1px #fd7f20 solid;
 	border-radius: 50%;
 	align-items: center;
 	justify-content: center;

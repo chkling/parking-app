@@ -46,7 +46,7 @@ export const LandingSection = styled.div`
 // `;
 
 export const MainButtonDiv = styled.div`
-	color: #1e3d58;
+	color: #057dcd;
 	width: 9.2rem;
 	height: 9.2rem;
 	display: flex;
@@ -66,7 +66,7 @@ export const MainButtonDiv = styled.div`
 	}
 
 	&:hover {
-		color: #057dcd;
+		color: #fd7f20;
 	}
 
 	@media (min-width: 768px) {
