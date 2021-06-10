@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import driveway from "../assets/images/driveway.jpg";
 
 export const LandingSection = styled.div`
 	background-color: #e8eef1;
@@ -30,6 +31,13 @@ export const LandingSection = styled.div`
 
 	h3 {
 		margin: 1.5rem;
+	}
+	@media (min-width: 992px) {
+		background-image: url(${driveway});
+
+		img {
+			display: none;
+		}
 	}
 `;
 

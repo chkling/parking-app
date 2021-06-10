@@ -24,9 +24,19 @@ export const MainFeatures = styled.div`
 	height: 8rem;
 	text-align: right;
 
-	// @media (min-width: 768px) {
-	// 	width: 50%;
-	// }
+	@media (min-width: 768px) {
+		display: flex;
+		flex-direction: row;
+		// background-color: red;
+		justify-content: flex-start;
+		padding: 1.2rem;
+		padding-right: 0.6rem;
+		margin: 0.2rem 1.2rem;
+		margin-left: 0.6rem;
+		align-items: center;
+		height: 8rem;
+		text-align: left;
+	}
 `;
 
 export const FeatureInfo = styled.div`
