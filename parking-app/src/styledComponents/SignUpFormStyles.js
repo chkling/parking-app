@@ -25,9 +25,21 @@ export const HostForm = styled.form`
 	}
 	@media (min-width: 768px) {
 		display: inline-grid;
-		grid-template-columns: 1fr;
-		grid-gap: 10px;
-		height: 65vh;
+		width: 500px;
+		height: 400px;
+		place-items: center;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 5px;
+		// height: 65vh;
+		border: 1px solid #1e3d58;
+		border-radius: 20px;
+		padding: 20px;
+		margin-bottom: 50px;
+		background-color: #057dcd;
+
+		input {
+			width: 200px;
+		}
 	}
 `;
 
@@ -41,7 +53,7 @@ export const SignUpFormInput = styled.input`
 `;
 
 export const SignUpButton = styled.button`
-	background-color: #057dcd;
+	background-color: #1e3d58;
 	width: 160px;
 	height: 40px;
 	color: #e8eef1;
@@ -50,4 +62,10 @@ export const SignUpButton = styled.button`
 	border-radius: 3px;
 	border: 0;
 	cursor: pointer;
+
+	&:hover {
+		background-color: #fd7f20;
+		border: 1px solid #1e3d58;
+		color: #1e3d58;
+	}
 `;

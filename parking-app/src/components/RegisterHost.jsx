@@ -5,27 +5,44 @@ import {
 	SignUpFormInput,
 	RegisterDiv,
 } from "../styledComponents/SignUpFormStyles";
+import "../App.css";
 
 export default function RegisterHost() {
 	return (
 		<RegisterDiv>
 			<h1>Register to Host Now</h1>
-			<div>
+			<div className="host-wrapper">
 				<HostForm>
-					<SignUpFormInput type="text" placeholder="First Name" />
-					<SignUpFormInput type="text" placeholder="Last Name" />
-					<SignUpFormInput type="email" placeholder="Email Address" />
-					<SignUpFormInput type="text" placeholder="Street Address" />
-					<SignUpFormInput type="text" placeholder="Apt/Suite #" />
-					<SignUpFormInput type="text" placeholder="City" />
-					<SignUpFormInput type="text" placeholder="State" />
-					<SignUpFormInput type="text" placeholder="Zip Code" />
 					<SignUpFormInput
+						id="first-name"
+						type="text"
+						placeholder="First Name"
+					/>
+					<SignUpFormInput id="last-name" type="text" placeholder="Last Name" />
+					<SignUpFormInput
+						id="email"
+						type="email"
+						placeholder="Email Address"
+					/>
+					<SignUpFormInput
+						id="spots"
 						type="number"
 						placeholder="Number of Parking Spots"
 					/>
-
-					<SignUpButton>Submit</SignUpButton>
+					<SignUpFormInput
+						id="street"
+						type="text"
+						placeholder="Street Address"
+					/>
+					<SignUpFormInput
+						id="apt-suite"
+						type="text"
+						placeholder="Apt/Suite #"
+					/>
+					<SignUpFormInput id="city" type="text" placeholder="City" />
+					<SignUpFormInput id="state" type="text" placeholder="State" />
+					<SignUpFormInput id="zip" type="text" placeholder="Zip Code" />
+					<SignUpButton id="submit-button">Submit Form</SignUpButton>
 				</HostForm>
 			</div>
 		</RegisterDiv>

@@ -13,3 +13,42 @@
 	max-width: 100vw;
 	background-color: #e8eef1;
 }
+
+@media screen and (min-width: 768px) {
+	.host-wrapper {
+		display: flex;
+		justify-content: center;
+		height: 76vh;
+	}
+
+	#first-name {
+		grid-column: 0/3;
+	}
+	#last-name {
+		grid-column: 2/5;
+	}
+	#email {
+		grid-column: 1/2;
+	}
+	#street {
+		grid-column: 1/2;
+	}
+	#apt-suite {
+		grid-column: 2/3;
+	}
+	#city {
+		grid-column: 1/2;
+	}
+	#state {
+		grid-column: 2/3;
+	}
+	#zip {
+		grid-column: 1/2;
+	}
+	#spots {
+		grid-column: 2/3;
+	}
+	#submit-button {
+		grid-column: 1/2;
+	}
+}
