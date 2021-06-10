@@ -23,6 +23,12 @@ export const HostForm = styled.form`
 	h3 {
 		margin: 1rem;
 	}
+	@media (min-width: 768px) {
+		display: inline-grid;
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+		height: 65vh;
+	}
 `;
 
 export const SignUpFormInput = styled.input`
