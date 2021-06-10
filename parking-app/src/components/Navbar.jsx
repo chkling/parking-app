@@ -14,6 +14,9 @@ export default function Navbar() {
 					backgroundColor: "#1E3D58",
 					alignItems: "center",
 					padding: "1.2rem",
+					display: "flex",
+					justifyContent: "center",
+					width: "100%",
 				}}
 				to="/"
 			>

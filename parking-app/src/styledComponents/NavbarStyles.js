@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const MainNavbar = styled.div`
 	display: flex;
 	flex-direction: column;
+
+	@media (min-width: 768px) {
+		flex-direction: row;
+		height: 7.5rem;
+	}
 `;
 
 export const NavbarLinks = styled.nav`
@@ -22,6 +27,18 @@ export const NavbarLinks = styled.nav`
 		&:hover {
 			color: #43b0f1;
 		}
+
+		@media (min-width: 768px) {
+			color: #e8eef1;
+		}
+	}
+	@media (min-width: 768px) {
+		flex-direction: row;
+		background-color: #1e3d58;
+		margin: 0;
+		width: 100%;
+		justify-content: flex-end;
+		align-items: center;
 	}
 `;
 

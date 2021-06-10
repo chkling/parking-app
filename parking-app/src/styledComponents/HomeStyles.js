@@ -5,6 +5,12 @@ export const LandingSection = styled.div`
 	color: #1e3d58;
 	min-height: 50vh;
 
+	// @media (min-width: 768px) {
+	// 	background-color: red;
+	// 	height: 500px;
+	// 	width: 500px;
+	// }
+
 	p {
 		margin: 1.2rem;
 		padding: 1.2rem;
@@ -13,6 +19,13 @@ export const LandingSection = styled.div`
 
 	img {
 		margin-top: 2rem;
+		height: 290px;
+		width: 350px;
+
+		@media (min-width: 768px) {
+			height: 580px;
+			width: 700px;
+		}
 	}
 
 	h3 {
@@ -54,5 +67,14 @@ export const MainButtonDiv = styled.div`
 
 	&:hover {
 		color: #057dcd;
+	}
+
+	@media (min-width: 768px) {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 20px;
+		width: 12.2rem;
+		height: 6.2rem;
+		justify-content: space-between;
 	}
 `;

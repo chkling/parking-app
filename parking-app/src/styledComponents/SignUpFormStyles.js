@@ -21,7 +21,7 @@ export const HostForm = styled.form`
 	}
 
 	h3 {
-		margin: 2rem;
+		margin: 1rem;
 	}
 `;
 

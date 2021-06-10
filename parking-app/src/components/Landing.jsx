@@ -30,11 +30,7 @@ export default function Landing() {
 	}, [dispatch]);
 	return (
 		<LandingSection>
-			<img
-				src={driveway}
-				alt="driveway"
-				style={{ height: "290px", width: "350px" }}
-			/>
+			<img src={driveway} alt="driveway" />
 			<h3>
 				Locate a hosted driveway spot on the go or put your unused driveway
 				space to use!
