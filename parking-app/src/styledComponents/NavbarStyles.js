@@ -7,7 +7,6 @@ export const MainNavbar = styled.div`
 `;
 
 export const NavbarLinks = styled.nav`
-	color: #057dcd;
 	display: flex;
 	flex-direction: column;
 	margin: 0.3rem;
@@ -29,12 +28,19 @@ export const NavbarLinks = styled.nav`
 export const SecondaryNavbar = styled.div`
 	display: flex;
 	flex-direction: row;
-	justify-conter: center;
-	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
 
 	a {
 		margin: 5px;
 		text-decoration: none;
-		color: lightblue;
+		color: #057dcd;
+		border: 1px solid #057dcd;
+		border-radius: 10px;
+		padding: 10px;
+
+		&:hover {
+			color: #1e3d58;
+		}
 	}
 `;
