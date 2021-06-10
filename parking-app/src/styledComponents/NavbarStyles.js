@@ -61,6 +61,13 @@ export const SecondaryNavbar = styled.div`
 		&:hover {
 			border: 1px solid #fd7f20;
 		}
+
+		@media (min-width: 992px) {
+			background-color: #e8eef1;
+			border-radius: 50%;
+			height: 10rem;
+			width: 10rem;
+		}
 	}
 `;
 
@@ -69,4 +76,8 @@ export const FooterDiv = styled.div`
 	color: #e8eef1;
 	margin-top: 1rem;
 	padding: 1rem;
+
+	@media (min-width: 992px) {
+		margin: 0;
+	}
 `;
