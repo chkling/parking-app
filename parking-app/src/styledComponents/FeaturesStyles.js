@@ -59,6 +59,28 @@ export const FeatureIcon = styled.div`
 	justify-content: center;
 	margin: 1rem 0rem 1.6rem 1rem;
 	padding: 10px;
+
+	@media (min-width: 768px) {
+		display: none;
+	}
+`;
+
+export const FeatureIconLeft = styled.div`
+	display: none;
+
+	@media (min-width: 768px) {
+		display: flex;
+		// background-color: #43b0f1;
+		color: #fd7f20;
+		height: 70px;
+		width: 70px;
+		border: 1px #fd7f20 solid;
+		border-radius: 50%;
+		align-items: center;
+		justify-content: center;
+		margin: 1rem 1rem 1.6rem 0rem;
+		padding: 10px;
+	}
 `;
 
 export const MainFeaturesReverse = styled.div`

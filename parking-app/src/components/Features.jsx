@@ -6,6 +6,7 @@ import {
 	FeatureInfo,
 	FeatureIcon,
 	FeatureIconReverse,
+	FeatureIconLeft,
 } from "../styledComponents/FeaturesStyles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import phoneMap from "../assets/images/phoneMap.jpg";
@@ -29,6 +30,7 @@ export default function Features() {
 	return (
 		<FeaturesList>
 			<MainFeatures>
+				<FeatureIconLeft>{car}</FeatureIconLeft>
 				<FeatureInfo>
 					<h1>Quick and Easy Parking</h1>
 					<p>Book ahead or while you're on your way</p>
@@ -36,6 +38,7 @@ export default function Features() {
 				<FeatureIcon>{car}</FeatureIcon>
 			</MainFeatures>
 			<MainFeatures>
+				<FeatureIconLeft>{clock}</FeatureIconLeft>
 				<FeatureInfo>
 					<h1>Park on your time</h1>
 					<p>Select how long you need it for and it's all yours</p>
@@ -43,6 +46,7 @@ export default function Features() {
 				<FeatureIcon>{clock}</FeatureIcon>
 			</MainFeatures>
 			<MainFeatures>
+				<FeatureIconLeft>{directions}</FeatureIconLeft>
 				<FeatureInfo>
 					<h1>Navigate to your spot</h1>
 					<p>Once selected you will be directed to your reserved spot</p>
