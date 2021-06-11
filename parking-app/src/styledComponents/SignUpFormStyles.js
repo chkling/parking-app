@@ -37,12 +37,11 @@ export const HostForm = styled.form`
 		place-items: center;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 5px;
-		// height: 65vh;
 		border: 1px solid #1e3d58;
 		border-radius: 5px;
 		padding: 20px;
 		margin-bottom: 50px;
-		background-color: #057dcd;
+		background-color: #057dcd70;
 
 		input {
 			width: 200px;

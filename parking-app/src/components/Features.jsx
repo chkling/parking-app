@@ -9,9 +9,6 @@ import {
 	FeatureIconLeft,
 	MapsIMG,
 	PhoneMap,
-	ColumnDiv1,
-	ColumnDiv2,
-	ColumnDiv3,
 } from "../styledComponents/FeaturesStyles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import phoneMap from "../assets/images/phoneMap.jpg";
@@ -35,7 +32,7 @@ const users = <FontAwesomeIcon icon={faUsers} size="2x" />;
 export default function Features() {
 	return (
 		<FeaturesList>
-			<ColumnDiv1>
+			<div>
 				<MainFeatures>
 					<FeatureIconLeft>{car}</FeatureIconLeft>
 					<FeatureInfo>
@@ -60,11 +57,11 @@ export default function Features() {
 					</FeatureInfo>
 					<FeatureIcon>{directions}</FeatureIcon>
 				</MainFeatures>
-			</ColumnDiv1>
-			<ColumnDiv2>
+			</div>
+			<div>
 				<MapsIMG src={maps} alt="phone maps" />
-			</ColumnDiv2>
-			<ColumnDiv3>
+			</div>
+			<div>
 				<MainFeaturesReverse>
 					<FeatureIconReverse>{star}</FeatureIconReverse>
 					<FeatureInfo>
@@ -88,7 +85,7 @@ export default function Features() {
 						<p>Let us know if you have any questions or feedback</p>
 					</FeatureInfo>
 				</MainFeaturesReverse>
-			</ColumnDiv3>
+			</div>
 			<PhoneMap src={phoneMap} alt="maps" />
 		</FeaturesList>
 	);

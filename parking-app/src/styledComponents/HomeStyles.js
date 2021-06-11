@@ -6,12 +6,6 @@ export const LandingSection = styled.div`
 	color: #1e3d58;
 	min-height: 50vh;
 
-	// @media (min-width: 768px) {
-	// 	background-color: red;
-	// 	height: 500px;
-	// 	width: 500px;
-	// }
-
 	p {
 		margin: 1.2rem;
 		padding: 1.2rem;
@@ -36,7 +30,6 @@ export const LandingSection = styled.div`
 		background-image: url(${driveway});
 		background-size: cover;
 		background-position: center;
-		// margin-top: 50px;
 		height: 85vh;
 		color: #e8eef1;
 

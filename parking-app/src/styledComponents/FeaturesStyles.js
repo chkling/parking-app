@@ -21,7 +21,6 @@ export const FeaturesList = styled.div`
 export const MainFeatures = styled.div`
 	display: flex;
 	flex-direction: row;
-	// background-color: red;
 	justify-content: flex-end;
 	padding: 1.2rem;
 	padding-right: 0.6rem;
@@ -34,7 +33,6 @@ export const MainFeatures = styled.div`
 	@media (min-width: 768px) {
 		display: flex;
 		flex-direction: row;
-		// background-color: red;
 		justify-content: flex-start;
 		padding: 1.2rem;
 		padding-right: 0.6rem;
@@ -48,7 +46,6 @@ export const MainFeatures = styled.div`
 	@media (min-width: 992px) {
 		display: flex;
 		flex-direction: row;
-		// background-color: red;
 		justify-content: flex-end;
 		padding: 1.2rem;
 		padding-right: 0.6rem;
@@ -63,7 +60,6 @@ export const MainFeatures = styled.div`
 export const FeatureInfo = styled.div`
 	width: 70vw;
 	height: 7rem;
-	// background-color: yellow;
 
 	h1 {
 		font-size: 20px;
@@ -80,7 +76,6 @@ export const FeatureInfo = styled.div`
 
 export const FeatureIcon = styled.div`
 	display: flex;
-	// background-color: #43b0f1;
 	color: #fd7f20;
 	height: 70px;
 	width: 70px;
@@ -104,7 +99,6 @@ export const FeatureIconLeft = styled.div`
 
 	@media (min-width: 768px) {
 		display: flex;
-		// background-color: #43b0f1;
 		color: #fd7f20;
 		height: 70px;
 		width: 70px;
@@ -123,7 +117,6 @@ export const FeatureIconLeft = styled.div`
 export const MainFeaturesReverse = styled.div`
 	display: flex;
 	flex-direction: row;
-	// background-color: red;
 	justify-content: flex-start;
 	padding: 1.2rem;
 	padding-right: 0.6rem;
@@ -132,16 +125,10 @@ export const MainFeaturesReverse = styled.div`
 	align-items: center;
 	height: 8rem;
 	text-align: left;
-
-	@media (min-width: 992px) {
-		// position: relative;
-		// up: 150px;
-	}
 `;
 
 export const FeatureIconReverse = styled.div`
 	display: flex;
-	// background-color: #43b0f1;
 	color: #fd7f20;
 	height: 70px;
 	width: 70px;
@@ -170,16 +157,4 @@ export const PhoneMap = styled.img`
 	@media (min-width: 992px) {
 		display: none;
 	}
-`;
-
-export const ColumnDiv1 = styled.div`
-	// // width: 200px;
-	// grid-column: 2/3;
-`;
-export const ColumnDiv2 = styled.div`
-	// grid-column: 1/2;
-	// width: 200px;
-`;
-export const ColumnDiv3 = styled.div`
-	// grid-column: 1/2;
 `;
