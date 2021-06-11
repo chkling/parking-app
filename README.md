@@ -1,6 +1,6 @@
-<img width="800" alt="Screen Shot 2021-06-10 at 10 44 53 PM" src="https://user-images.githubusercontent.com/71455657/121623393-9b2a7980-ca3d-11eb-9e71-89333c884221.png">
-
 Parking Pal is an application allowing users to rent out their driveway space or find driveway parking at a hosted location. Once the user accesses the application, they may choose between parking or hosting. To find parking, the user will input their address for a list of available driveway parking near that location. To host, the user will enter their information along with the number of parking spaces they have available to rent.
+
+<img width="800" alt="Screen Shot 2021-06-10 at 10 44 53 PM" src="https://user-images.githubusercontent.com/71455657/121623393-9b2a7980-ca3d-11eb-9e71-89333c884221.png">
 
 This was built using JavaScript, React, and Redux. 
 
