@@ -1,4 +1,5 @@
 React / Redux
+
 Reducers, Actions, Action types all split up into their own seperate files
 React Router
 Mobile responsive. You will have to make sure your application is mobile responsive to a testable level. You can't account for all of the resolution sizes but you can account for the top 3, Desktop, tablet, phone. Please make sure your application works appropriately when sized to these resolutions.
