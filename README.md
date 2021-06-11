@@ -20,4 +20,4 @@ Create a 404 not found error component that renders whenever the user enters or 
 
 <img width="800" alt="Screen Shot 2021-06-10 at 10 45 02 PM" src="https://user-images.githubusercontent.com/71455657/121623399-9e256a00-ca3d-11eb-9169-ad48812efb43.png">
 
-<img width="1421" alt="Screen Shot 2021-06-11 at 11 58 07 AM" src="https://user-images.githubusercontent.com/71455657/121714871-470aae00-caac-11eb-873e-60f51f0b7ecd.png">
+<img width="800" alt="Screen Shot 2021-06-11 at 11 58 07 AM" src="https://user-images.githubusercontent.com/71455657/121714871-470aae00-caac-11eb-873e-60f51f0b7ecd.png">
