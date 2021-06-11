@@ -1,8 +1,8 @@
 PARKING PAL
 
-React / Redux
+Parking Pal is an application allowing users to rent out their driveway space or find driveway parking at a hosted location. Once the user accesses the application, they may choose between parking or hosting. To find parking, the user will input their address for a list of available driveway parking near that location. To host, the user will enter their information along with the number of parking spaces they have available to rent.
 
-Reducers, Actions, Action types all split up into their own seperate files
+This was built using JavaScript, React, and Redux. 
 
 React Router
 
