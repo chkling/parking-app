@@ -39,7 +39,7 @@ export const HostForm = styled.form`
 		grid-gap: 5px;
 		// height: 65vh;
 		border: 1px solid #1e3d58;
-		border-radius: 20px;
+		border-radius: 5px;
 		padding: 20px;
 		margin-bottom: 50px;
 		background-color: #057dcd;

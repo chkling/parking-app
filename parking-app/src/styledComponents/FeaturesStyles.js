@@ -159,12 +159,10 @@ export const MapsIMG = styled.img`
 	width: 200px;
 
 	@media (min-width: 992px) {
-		height: 400px;
-		width: 380px;
+		height: 500px;
+		width: 420px;
 		display: flex;
-		// position: relative;
-		// left: 50%;
-		// align-items: center;
+		border-radius: 5px;
 	}
 `;
 
