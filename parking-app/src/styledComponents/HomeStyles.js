@@ -36,7 +36,7 @@ export const LandingSection = styled.div`
 		background-image: url(${driveway});
 		background-size: cover;
 		background-position: center;
-		// margin-top: -50px;
+		// margin-top: 50px;
 		height: 85vh;
 		color: #e8eef1;
 
