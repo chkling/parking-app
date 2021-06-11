@@ -10,8 +10,8 @@ import "../App.css";
 export default function RegisterHost() {
 	return (
 		<RegisterDiv>
-			<h1>Register to Host Now</h1>
 			<div className="host-wrapper">
+				<h1>Register to Host Now</h1>
 				<HostForm>
 					<SignUpFormInput
 						id="first-name"

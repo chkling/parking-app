@@ -86,13 +86,40 @@ export const MainButtonDiv = styled.div`
 	}
 
 	@media (min-width: 992px) {
-		// border-radius: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+		background-color: #e8eef1;
+		border-radius: 50%;
+		height: 160px;
+		width: 160px;
+		font-size: 12px;
+		border: 1px solid #057dcd;
+		color: #057dcd;
+
+		h2 {
+			margin: 0;
+			padding: 5px;
+		}
+
+		h3 {
+			margin: 0;
+			padding: 5px;
+		}
+
+		&:hover {
+			border: 1px solid #fd7f20;
+			h3 {
+				color: #fd7f20;
+			}
+		}
 	}
 `;
 
 export const LandingSubSection = styled.div`
 	@media (min-width: 992px) {
-		background-color: white;
+		background-color: #e8eef1;
 		width: 500px;
 		display: flex;
 		flex-direction: column;

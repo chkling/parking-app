@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const MainNavbar = styled.div`
 	display: flex;
@@ -7,6 +8,24 @@ export const MainNavbar = styled.div`
 	@media (min-width: 768px) {
 		flex-direction: row;
 		height: 5rem;
+	}
+`;
+
+export const StyledLink = styled(Link)`
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #e8eef1;
+	font-size: 2rem;
+	background-color: #1e3d58;
+	align-items: center;
+	padding: 1.2rem;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	@media (min-width: 992px) {
+		justify-content: flex-start;
+		padding-left: 50px;
 	}
 `;
 
@@ -63,10 +82,10 @@ export const SecondaryNavbar = styled.div`
 		}
 
 		@media (min-width: 992px) {
-			background-color: #e8eef1;
-			border-radius: 50%;
-			height: 10rem;
-			width: 10rem;
+			border: none;
+			&:hover {
+				border: none;
+			}
 		}
 	}
 `;

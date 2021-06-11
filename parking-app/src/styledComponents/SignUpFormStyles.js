@@ -1,8 +1,15 @@
 import styled from "styled-components";
+import driving from "../assets/images/driving.jpg";
 
 export const RegisterDiv = styled.div`
 	h1 {
-		margin: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	@media (min-width: 768px) {
+		background-image: url(${driving});
+		background-size: cover;
+		background-position: center;
 	}
 `;
 

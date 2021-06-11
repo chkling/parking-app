@@ -17,8 +17,16 @@
 @media screen and (min-width: 768px) {
 	.host-wrapper {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		justify-content: center;
-		height: 76vh;
+		height: 86vh;
+	}
+
+	.host-wrapper h1 {
+		margin: 3rem;
+		color: #e8eef1;
+		text-shadow: 2px 2px #1e3d58;
 	}
 
 	#first-name {
